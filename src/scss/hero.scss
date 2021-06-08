@@ -6,10 +6,25 @@
   padding-top: 60px;
   display: flex;
   flex-direction: column;
+  ul {
+    display: flex;
+  }
+  li {
+    @include _400;
+    padding: 3px 20px;
+    @include font-button;
+    color: $li_color;
+    opacity: 0.5;
+    &:hover {
+      opacity: 1;
+    }
+    &:first-of-type {
+      opacity: 1;
+    }
+  }
 }
 header {
-  display: flex;
-  justify-content: space-between;
+  @include flex;
   align-items: center;
   margin-bottom: 84px;
 }
@@ -18,56 +33,37 @@ header {
   margin-right: 12px;
 }
 .logo-name {
-  color: #233348;
+  color: $logo_color;
   vertical-align: middle;
-  font-weight: 700;
+  @include _700;
   font-size: 2.4rem;
   line-height: 1.25;
 }
 .home {
-  color: black;
-}
-.hero ul {
-  display: flex;
-}
-.hero li {
-  font-weight: 400;
-  padding: 3px 20px;
-  font-size: 1.8rem;
-  line-height: 1.2;
-  color: #1f1534;
-  opacity: 0.5;
-}
-.hero li:hover {
-  opacity: 1;
-}
-.hero li:first-of-type {
-  opacity: 1;
+  color: $h1_h2_h3_color;
 }
 h1 {
-  font-weight: 700;
-  font-size: 4.8rem;
-  line-height: 1.1;
-  color: #000000;
+  @include _700;
+  @include font_h1;
+  color: $h1_h2_h3_color;
   margin-bottom: 25px;
 }
 .hero-content {
-  display: flex;
-  justify-content: space-between;
+  @include flex;
   flex-direction: row-reverse;
-}
-.hero-content p {
-  font-weight: 300;
-  font-size: 2.1rem;
-  line-height: 1.5;
-  color: #7d7987;
-  margin-bottom: 48px;
-  display: inline-block;
-}
-.hero-content img {
-  width: 693px;
-  height: 598px;
-  margin-bottom: 192px;
+  p {
+    @include _300;
+    font-size: 2.1rem;
+    line-height: 1.5;
+    color: $p_color;
+    margin-bottom: 48px;
+    display: inline-block;
+  }
+  img {
+    width: 693px;
+    height: 598px;
+    margin-bottom: 192px;
+  }
 }
 .hero-content-section {
   width: 445px;
@@ -77,9 +73,9 @@ h1 {
   flex-direction: column;
   justify-content: center;
   margin-right: 109px;
-}
-.hero-content-section a {
-  background: #458ff6;
-  border: 0ch;
-  color: #ffffff;
+  a {
+    background: $button_color;
+    border: 0ch;
+    color: $color_customer;
+  }
 }

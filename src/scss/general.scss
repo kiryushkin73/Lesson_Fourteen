@@ -1,3 +1,38 @@
+@mixin width_1120px {
+  width: 1120px;
+}
+@mixin font-button {
+  font-size: 1.8rem;
+  line-height: 1.2;
+}
+@mixin font-h2 {
+  font-weight: 700;
+  font-size: 3.6rem;
+  line-height: 1.5;
+}
+@mixin font-p {
+  font-weight: 300;
+  font-size: 1.8rem;
+  line-height: 1.6;
+}
+@mixin flex {
+  display: flex;
+  justify-content: space-between;
+}
+@mixin font_h1 {
+  font-size: 4.8rem;
+  line-height: 1.1;
+}
+@mixin margin_auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+$logo_color: #233348;
+$button_color: #458ff6;
+$h1_h2_h3_color: #000000;
+$p_color: #7d7987;
+$li_color: #1f1534;
+$color_customer: #ffffff;
 body,
 html {
   font-family: 'Mulish', Arial, Helvetica, sans-serif;
@@ -12,34 +47,28 @@ html {
   box-sizing: border-box;
 }
 .button {
-  font-weight: 700;
-  font-size: 1.8rem;
-  line-height: 1.2;
+  @include font-button;
+  @include _700;
   padding: 15px 40px 15px 40px;
   border-radius: 55px;
   display: inline-block;
   align-self: flex-start;
 }
 .learn-more {
-  color: #458ff6;
+  color: $button_color;
   display: inline-block;
-  font-weight: 700;
-  font-size: 1.8rem;
-  line-height: 1.2;
+  @include font-button;
+  @include _700;
   padding: 15px 51px 15px 51px;
-  border: 1.4px solid #458ff6;
+  border: 1.4px solid $button_color;
   box-sizing: border-box;
   border-radius: 55px;
 }
 h2 {
-  font-weight: 700;
-  font-size: 3.6rem;
-  line-height: 1.5;
-  color: #000000;
+  @include font-h2;
+  color: $h1_h2_h3_color;
 }
 p {
-  font-weight: 300;
-  font-size: 1.8rem;
-  line-height: 1.6;
-  color: #7d7987;
+  @include font-p;
+  color: $p_color;
 }

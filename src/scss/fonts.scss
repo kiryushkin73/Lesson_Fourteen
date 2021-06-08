@@ -3,26 +3,38 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url(/src/fonts/Mulish-Bold.woff2) format('woff2');
+  src: url(../src/fonts/Mulish-Bold.woff2) format('woff2');
 }
 @font-face {
   font-family: 'Mulish', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(/src/fonts/Mulish-Regular.woff2) format('woff2');
+  src: url(../src/fonts/Mulish-Regular.woff2) format('woff2');
 }
 @font-face {
   font-family: 'Mulish', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: url(/src/fonts/Mulish-Light.woff2) format('woff2');
+  src: url(../src/fonts/Mulish-Light.woff2) format('woff2');
 }
 @font-face {
   font-family: 'Mulish', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: url(/src/fonts/Mulish-SemiBold.woff2) format('woff2');
+  src: url(../src/fonts/Mulish-SemiBold.woff2) format('woff2');
+}
+@mixin _700 {
+  font-weight: 700;
+}
+@mixin _400 {
+  font-weight: 400;
+}
+@mixin _300 {
+  font-weight: 300;
+}
+@mixin _600 {
+  font-weight: 600;
 }

@@ -1,73 +1,79 @@
 .footer {
   background: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
+  p {
+    color: $color_customer;
+    font-size: 1.8rem;
+    line-height: 1.56;
+    margin-bottom: 31px;
+    width: 391px;
+  }
 }
 .footer-conteiner {
   width: 1187px;
-  margin-left: auto;
-  margin-right: auto;
+  @include margin_auto;
   padding-top: 109px;
   padding-bottom: 97px;
-  display: flex;
-  justify-content: space-between;
+  @include flex;
   align-items: flex-start;
 }
-
-.footer-logo img {
-  width: 41px;
-  height: 41px;
-  margin-right: 12px;
-  margin-bottom: 17px;
-}
-.footer-logo span {
-  font-weight: 700;
-  font-size: 2.4rem;
-  line-height: 1.25;
-  color: #ffffff;
-}
-.footer p {
-  color: #ffffff;
-  font-size: 1.8rem;
-  line-height: 1.56;
-  margin-bottom: 31px;
-  width: 391px;
+.footer-logo {
+  img {
+    width: 41px;
+    height: 41px;
+    margin-right: 12px;
+    margin-bottom: 17px;
+  }
+  span {
+    @include _700;
+    font-size: 2.4rem;
+    line-height: 1.25;
+    color: $color_customer;
+  }
 }
 .copirating {
-  font-weight: 300;
+  @include _300;
   font-size: 1.6rem;
   line-height: 1.75px;
-  color: #ffffff;
+  color: $color_customer;
 }
-
-footer nav h2 {
-  font-weight: 700;
-  font-size: 2em;
-  line-height: 3;
+footer {
+  nav {
+    h2 {
+      @include _700;
+      font-size: 2em;
+      line-height: 3;
+    }
+    h3 {
+      @include _300;
+      font-size: 1.8em;
+      line-height: 2.1;
+    }
+    ul {
+      display: inline-flex;
+      flex-direction: column;
+    }
+  }
 }
-footer nav h3 {
-  font-weight: 300;
-  font-size: 1.8em;
-  line-height: 2.1;
+.footer-nav {
+  h3 {
+    @include _700;
+    font-size: 2rem;
+    line-height: 3;
+    color: $color_customer;
+    margin-right: 177px;
+  }
+  li {
+    margin-bottom: 8px;
+  }
+  a {
+    @include _300;
+    font-size: 1.8rem;
+    line-height: 2.1;
+    color: $color_customer;
+  }
 }
-footer nav ul {
-  display: inline-flex;
-  flex-direction: column;
-}
-.footer-nav h3 {
-  font-weight: 700;
-  font-size: 2rem;
-  line-height: 3;
-  color: #ffffff;
-  margin-right: 177px;
-}
-.help:first-of-type {
-  margin-right: 0;
-}
-.footer-nav li {
-  margin-bottom: 8px;
-}
-.footer-nav a {
-  font-weight: 300;
-  font-size: 1.8rem;
-  line-height: 2.1;
-  color: #ffffff;
+.help {
+  &:first-of-type {
+    margin-right: 0;
+  }
 }
