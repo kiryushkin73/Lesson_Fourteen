@@ -1,0 +1,85 @@
+.hero {
+  min-height: 100vh;
+  width: 1247px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 84px;
+}
+.logoimg {
+  width: 41px;
+  margin-right: 12px;
+}
+.logo-name {
+  color: #233348;
+  vertical-align: middle;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 1.25;
+}
+.home {
+  color: black;
+}
+.hero ul {
+  display: flex;
+}
+.hero li {
+  font-weight: 400;
+  padding: 3px 20px;
+  font-size: 1.8rem;
+  line-height: 1.2;
+  color: #1f1534;
+  opacity: 0.5;
+}
+.hero li:hover {
+  opacity: 1;
+}
+.hero li:first-of-type {
+  opacity: 1;
+}
+h1 {
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 1.1;
+  color: #000000;
+  margin-bottom: 25px;
+}
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+.hero-content p {
+  font-weight: 300;
+  font-size: 2.1rem;
+  line-height: 1.5;
+  color: #7d7987;
+  margin-bottom: 48px;
+  display: inline-block;
+}
+.hero-content img {
+  width: 693px;
+  height: 598px;
+  margin-bottom: 192px;
+}
+.hero-content-section {
+  width: 445px;
+  margin-top: 107px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 109px;
+}
+.hero-content-section a {
+  background: #458ff6;
+  border: 0ch;
+  color: #ffffff;
+}

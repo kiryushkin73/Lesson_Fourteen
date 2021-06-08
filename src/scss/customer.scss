@@ -1,0 +1,91 @@
+.customer {
+  width: 1120px;
+  margin-left: auto;
+  margin-right: auto;
+  background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
+  border-radius: 24px;
+  padding: 64px 118px 79px;
+  margin-bottom: 43px;
+}
+.customer h2 {
+  font-size: 3.6rem;
+  line-height: 1.3;
+  color: #ffffff;
+  text-align: center;
+}
+.customer h2::after {
+  display: block;
+  content: '';
+  height: 2px;
+  width: 56px;
+  background-color: white;
+  border-radius: 6px;
+  margin-top: 25px;
+  margin-bottom: 77px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+.customer p {
+  font-weight: 400;
+  font-size: 1.9rem;
+  line-height: 1.57;
+  color: rgba(255, 255, 255, 0.9);
+  width: 420px;
+  vertical-align: center;
+}
+.customer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.customer-content img {
+  width: 141px;
+  height: 141px;
+  margin-right: 29px;
+}
+.customer-content h3 {
+  font-weight: 700;
+  font-size: 2.2rem;
+  line-height: 2.1;
+  color: #ffffff;
+}
+.customer-content span {
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.6;
+  color: rgba(255, 255, 255, 0.85);
+}
+.customer-content figcaption {
+  float: right;
+  margin-top: 30px;
+}
+.customer-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 336px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 227px;
+}
+.customer-button button {
+  border: none;
+  outline: none;
+  background: none;
+}
+.customer-button button:first-of-type {
+  margin-right: 91px;
+}
+.customer-button button:last-of-type {
+  margin-left: 91px;
+}
+.customer-button button:nth-child(2) {
+  margin-right: 18px;
+}
+.customer-button button:nth-child(3) {
+  margin-right: 18px;
+}
+.customer-button button:nth-child(4) {
+  margin-right: 18px;
+}

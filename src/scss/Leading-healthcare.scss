@@ -1,0 +1,32 @@
+.Leading-healthcare {
+  width: 1242px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.Leading-healthcare img {
+  width: 650px;
+  height: 447px;
+  margin-bottom: 229px;
+  margin-right: 142px;
+}
+.healthcare-content {
+  width: 481px;
+}
+.healthcare-content h2::after {
+  display: block;
+  content: '';
+  height: 2px;
+  width: 56px;
+  background-color: black;
+  border-radius: 10px;
+  margin-top: 26px;
+  margin-bottom: 31px;
+  text-align: start;
+}
+.healthcare-content p {
+  width: 450px;
+  margin-bottom: 37px;
+}

@@ -1,0 +1,45 @@
+body,
+html {
+  font-family: 'Mulish', Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;
+  width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
+}
+* {
+  box-sizing: border-box;
+}
+.button {
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 1.2;
+  padding: 15px 40px 15px 40px;
+  border-radius: 55px;
+  display: inline-block;
+  align-self: flex-start;
+}
+.learn-more {
+  color: #458ff6;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 1.2;
+  padding: 15px 51px 15px 51px;
+  border: 1.4px solid #458ff6;
+  box-sizing: border-box;
+  border-radius: 55px;
+}
+h2 {
+  font-weight: 700;
+  font-size: 3.6rem;
+  line-height: 1.5;
+  color: #000000;
+}
+p {
+  font-weight: 300;
+  font-size: 1.8rem;
+  line-height: 1.6;
+  color: #7d7987;
+}
