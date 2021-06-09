@@ -1,5 +1,5 @@
 .customer {
-  width: 1120px;
+  @include width_1120px;
   @include margin_auto;
   background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
   border-radius: 24px;
@@ -24,7 +24,7 @@
     }
   }
   p {
-    @include _400;
+    font-weight: 400;
     font-size: 1.9rem;
     line-height: 1.57;
     color: rgba(255, 255, 255, 0.9);
@@ -41,13 +41,13 @@
     margin-right: 29px;
   }
   h3 {
-    @include _700;
+    font-weight: 700;
     font-size: 2.2rem;
     line-height: 2.1;
     color: $color_customer;
   }
   span {
-    @include _400;
+    font-weight: 400;
     font-size: 1.8rem;
     line-height: 2.6;
     color: rgba(255, 255, 255, 0.85);

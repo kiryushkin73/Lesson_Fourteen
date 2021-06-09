@@ -24,14 +24,14 @@
     margin-bottom: 17px;
   }
   span {
-    @include _700;
+    font-weight: 700;
     font-size: 2.4rem;
     line-height: 1.25;
     color: $color_customer;
   }
 }
 .copirating {
-  @include _300;
+  font-weight: 300;
   font-size: 1.6rem;
   line-height: 1.75px;
   color: $color_customer;
@@ -39,12 +39,12 @@
 footer {
   nav {
     h2 {
-      @include _700;
+      font-weight: 700;
       font-size: 2em;
       line-height: 3;
     }
     h3 {
-      @include _300;
+      font-weight: 300;
       font-size: 1.8em;
       line-height: 2.1;
     }
@@ -56,7 +56,7 @@ footer {
 }
 .footer-nav {
   h3 {
-    @include _700;
+    font-weight: 700;
     font-size: 2rem;
     line-height: 3;
     color: $color_customer;
@@ -66,7 +66,7 @@ footer {
     margin-bottom: 8px;
   }
   a {
-    @include _300;
+    font-weight: 300;
     font-size: 1.8rem;
     line-height: 2.1;
     color: $color_customer;

@@ -10,7 +10,7 @@
     display: flex;
   }
   li {
-    @include _400;
+    font-weight: 400;
     padding: 3px 20px;
     @include font-button;
     color: $li_color;
@@ -35,7 +35,7 @@ header {
 .logo-name {
   color: $logo_color;
   vertical-align: middle;
-  @include _700;
+  font-weight: 700;
   font-size: 2.4rem;
   line-height: 1.25;
 }
@@ -43,8 +43,8 @@ header {
   color: $h1_h2_h3_color;
 }
 h1 {
-  @include _700;
   @include font_h1;
+  font-weight: 700;
   color: $h1_h2_h3_color;
   margin-bottom: 25px;
 }
@@ -52,7 +52,7 @@ h1 {
   @include flex;
   flex-direction: row-reverse;
   p {
-    @include _300;
+    font-weight: 300;
     font-size: 2.1rem;
     line-height: 1.5;
     color: $p_color;

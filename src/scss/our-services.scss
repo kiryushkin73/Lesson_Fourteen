@@ -19,7 +19,7 @@
       content: '';
       height: 2px;
       width: 56px;
-      background-color: $h1_h2_h3_color;
+      background-color: black;
       border-radius: 5px;
       @include margin_auto;
       margin-top: 26px;
@@ -33,14 +33,14 @@
     margin-bottom: 22px;
   }
   h3 {
-    @include _700;
+    font-weight: 700;
     font-size: 2.4rem;
     line-height: 2.3;
     color: $h1_h2_h3_color;
     margin-bottom: 1px;
   }
   p {
-    @include _300;
+    font-weight: 300;
     font-size: 1.6rem;
     line-height: 1.75;
     width: 266px;

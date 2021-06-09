@@ -422,9 +422,9 @@ html {
   box-sizing: border-box; }
 
 .button {
-  font-weight: 700;
   font-size: 1.8rem;
   line-height: 1.2;
+  font-weight: 700;
   padding: 15px 40px 15px 40px;
   border-radius: 55px;
   display: inline-block;
@@ -433,9 +433,9 @@ html {
 .learn-more {
   color: #458ff6;
   display: inline-block;
-  font-weight: 700;
   font-size: 1.8rem;
   line-height: 1.2;
+  font-weight: 700;
   padding: 15px 51px 15px 51px;
   border: 1.4px solid #458ff6;
   box-sizing: border-box;
@@ -493,12 +493,12 @@ header {
   line-height: 1.25; }
 
 .home {
-  color: black; }
+  color: #000000; }
 
 h1 {
-  font-weight: 700;
   font-size: 4.8rem;
   line-height: 1.1;
+  font-weight: 700;
   color: #000000;
   margin-bottom: 25px; }
 
@@ -536,28 +536,28 @@ h1 {
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url(../src/fonts/Mulish-Bold.woff2) format("woff2"); }
+  src: url(fonts/Mulish-Bold.woff2) format("woff2"); }
 
 @font-face {
   font-family: 'Mulish', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(../src/fonts/Mulish-Regular.woff2) format("woff2"); }
+  src: url(fonts/Mulish-Regular.woff2) format("woff2"); }
 
 @font-face {
   font-family: 'Mulish', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: url(../src/fonts/Mulish-Light.woff2) format("woff2"); }
+  src: url(fonts/Mulish-Light.woff2) format("woff2"); }
 
 @font-face {
   font-family: 'Mulish', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: url(../src/fonts/Mulish-SemiBold.woff2) format("woff2"); }
+  src: url(fonts/Mulish-SemiBold.woff2) format("woff2"); }
 
 .our-services-content {
   display: flex;
@@ -579,15 +579,15 @@ h1 {
   width: 56px;
   background-color: black;
   border-radius: 5px;
-  margin-right: auto;
   margin-left: auto;
+  margin-right: auto;
   margin-top: 26px;
   margin-bottom: 33px; }
 
 .card-box {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
+  flex-wrap: wrap;
   margin-bottom: 69px; }
   .card-box img {
     height: 90px;
@@ -650,7 +650,7 @@ h1 {
     content: '';
     height: 2px;
     width: 56px;
-    background-color: black;
+    background-color: #000000;
     border-radius: 10px;
     margin-top: 26px;
     margin-bottom: 31px;
@@ -664,8 +664,8 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between; }
+  justify-content: space-between;
+  flex-direction: row-reverse; }
 
 .mobile-img {
   width: 665px;
@@ -718,8 +718,8 @@ h1 {
       margin-top: 25px;
       margin-bottom: 77px;
       text-align: center;
-      margin-right: auto;
-      margin-left: auto; }
+      margin-left: auto;
+      margin-right: auto; }
   .customer p {
     font-weight: 400;
     font-size: 1.9rem;
@@ -775,8 +775,8 @@ h1 {
 
 .check {
   width: 1120px;
-  margin-right: auto;
   margin-left: auto;
+  margin-right: auto;
   margin-bottom: 202px; }
   .check h2 {
     text-align: center; }
@@ -785,13 +785,13 @@ h1 {
       content: '';
       height: 2px;
       width: 56px;
-      background-color: black;
+      background-color: #000000;
       border-radius: 5px;
       margin-top: 26px;
       margin-bottom: 72px;
       text-align: center;
-      margin-right: auto;
-      margin-left: auto; }
+      margin-left: auto;
+      margin-right: auto; }
   .check h3 {
     font-weight: 700;
     font-size: 2.1rem;
@@ -806,8 +806,8 @@ h1 {
     margin-bottom: 25px; }
   .check ul {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between; }
+    justify-content: space-between;
+    flex-wrap: wrap; }
   .check li {
     width: 350px;
     display: inline-block;

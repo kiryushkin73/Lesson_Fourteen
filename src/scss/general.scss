@@ -48,7 +48,7 @@ html {
 }
 .button {
   @include font-button;
-  @include _700;
+  font-weight: 700;
   padding: 15px 40px 15px 40px;
   border-radius: 55px;
   display: inline-block;
@@ -58,7 +58,7 @@ html {
   color: $button_color;
   display: inline-block;
   @include font-button;
-  @include _700;
+  font-weight: 700;
   padding: 15px 51px 15px 51px;
   border: 1.4px solid $button_color;
   box-sizing: border-box;
